@@ -8,7 +8,6 @@
       body {
         padding-top: 40px;
         padding-bottom: 40px;
-        background-color: #004643;
         display: flex;
         justify-content: center;
       }
@@ -25,6 +24,7 @@
       height: 128px;
       object-fit: cover;
       border-radius: 128px;
+      justify-content: center;
     }
     </style>
     
@@ -38,7 +38,11 @@
     
     </style>
     <style>
+      body {
+      background-color: #004643;
+      justify-content: center;
       
+      }
     </style>
     <style>
       .name {
@@ -49,13 +53,15 @@
     </style>
     <style>.social-icons a {
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
+      color:#fffffe
     }</style>
     <style>
     .link {
-    background-color: #f9bc60;
-    display: flex;
-    align-items: center;
+      background-color: #f9bc60;
+  display: flex;
+  align-items: center;
+  padding: 5px;
     }
     </style>
     <style>
@@ -64,16 +70,17 @@
       text-decoration: none;
       text-align: center;
       flex-grow: 1;
+      justify-content: center;
        }</style>
     
     <style>
     .items {
       display: flex;
-    flex-direction: column;
-    gap: 30px;
-    max-width: 640px;
-    flex-grow: 1;
-    
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+  flex-grow: 1;
+  
     }</style>
 
     <style>* {
@@ -81,11 +88,12 @@
     }</style>
   </head>
   <body>
+    <div class="items" >
     <div class="banner">
       <img src="/photos/dana.png/" alt="Dana Headshot" class="banner-image">
     </div>
   
-    <div class="items" >
+    
         <div class="name">
          Dana Wilkerson
           </div>
